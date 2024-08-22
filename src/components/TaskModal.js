@@ -44,7 +44,7 @@ const TaskModal = ({
 
   return (
     <div
-      className={`fixed inset-0 bg-gray-500 bg-opacity-50 flex items-center justify-center transition-opacity duration-300 ease-in-out ${
+      className={`fixed px-3 inset-0 bg-gray-500 bg-opacity-50 flex items-center justify-center transition-opacity duration-300 ease-in-out ${
         isOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
       }`}
       onClick={onClose}

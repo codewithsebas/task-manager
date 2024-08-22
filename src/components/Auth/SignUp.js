@@ -74,8 +74,8 @@ const SignUpComponent = () => {
   };
 
   return (
-    <main className="w-full h-screen">
-      <div className="w-full h-full flex items-center justify-center p-5">
+    <main className="w-full h-screen flex items-center justify-center p-5 bg-gray-50">
+      <div className="max-w-md w-full text-black/80 flex flex-col gap-3 bg-white p-6 rounded-lg shadow-md">
         <div className="max-w-md w-full text-black/80 flex flex-col gap-3">
           <Image src="/logo.svg" alt="Logo" width={40} height={40} />
           <div className="flex flex-col gap-5">

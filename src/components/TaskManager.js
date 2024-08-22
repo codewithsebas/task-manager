@@ -31,7 +31,7 @@ const TaskManager = ({ currentUser }) => {
 
   return (
     <div className="flex flex-col gap-3 p-5">
-      <div className="flex justify-between gap-2">
+      <div className="flex justify-between gap-2 flex-col md:flex-row">
         <h2 className="font-semibold text-2xl">
           Welcome, {currentUser?.email}
         </h2>

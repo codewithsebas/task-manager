@@ -44,7 +44,7 @@ const TaskEdit: React.FC<{ task: Task; onClose: () => void }> = ({ task, onClose
 
     const closeModal = () => {
         setIsModalOpen(false);
-        setError(null); // Limpiar error al cerrar el modal
+        setError(null);
         onClose();
     };
 

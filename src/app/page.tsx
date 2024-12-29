@@ -21,7 +21,6 @@ export default function Home() {
         <TaskFilter />
         <AddTask />
       </div>
-
       <TaskList />
     </main>
   );

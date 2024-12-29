@@ -13,7 +13,7 @@ const TaskForm: React.FC = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setError(null); // Resetear el error
+    setError(null);
 
     if (!title.trim()) {
       setError('El título es obligatorio.');

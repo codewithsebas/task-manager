@@ -7,10 +7,40 @@
   --foreground: #171717;
 }
 
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #00000009;
+  border: 1px solid #0000000c;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00000025;
+  border-radius: 10px;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #ffffff09;
+    border: 1px solid #ffffff0c;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #ffffff25;
+    border-radius: 10px;
   }
 }
 

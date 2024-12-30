@@ -45,8 +45,7 @@ npm run dev
 
 ## Recursos utilizados
 
-Node.js: Plataforma principal para la ejecución del backend.
-
+Deploy: Vercel.
 Next.js: Framework de React para el frontend.
 
 #### Con esta guía, deberías poder instalar y ejecutar la aplicación Task Manager App en tu entorno local. ¡Disfruta de la App!

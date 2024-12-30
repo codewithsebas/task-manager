@@ -21,7 +21,7 @@ interface TaskContextType {
   getTasks: (status?: "pending" | "completed") => void;
 }
 
-const TaskContext = createContext<TaskContextType | undefined>(undefined);
+export const TaskContext = createContext<TaskContextType | undefined>(undefined);
 
 interface TaskProviderProps {
   children: ReactNode;

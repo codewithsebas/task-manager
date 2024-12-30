@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Task Manager App
 
-## Getting Started
+Task Manager App es una aplicación diseñada para gestionar tareas. Esta App permite crear, leer, actualizar y eliminar tareas, además de ofrecer una bonita interfaz de usuario con modo oscuro dependiendo de tu sistema.
 
-First, run the development server:
+## Requisitos Previos
 
+- **Node.js** v18 o superior
+
+## Instalación
+
+**Clona el repositorio**:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+   git clone https://github.com/codewithsebas/task-manager
+   cd task-manager
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Instala las dependencias**:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+   npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Configura las variables de entorno**:
 
-## Learn More
+Crea un archivo .env en el directorio raíz con el siguiente contenido:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+    NEXT_PUBLIC_API_URL=http://localhost:5000/api
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Reemplaza NEXT_PUBLIC_API_URL con tu cadena de conexión del Backend.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Ejecuta el servidor**:
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+    npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Recursos utilizados
+
+Node.js: Plataforma principal para la ejecución del backend.
+
+Next.js: Framework de React para el frontend.
+
+#### Con esta guía, deberías poder instalar y ejecutar la aplicación Task Manager App en tu entorno local. ¡Disfruta de la App!

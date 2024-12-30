@@ -2,6 +2,12 @@
 
 Task Manager App es una aplicación diseñada para gestionar tareas. Esta App permite crear, leer, actualizar y eliminar tareas, además de ofrecer una bonita interfaz de usuario con modo oscuro dependiendo de tu sistema.
 
+### Deploy App
+
+```bash
+https://task-manager-three-sable-62.vercel.app/
+```
+
 ## Requisitos Previos
 
 - **Node.js** v18 o superior
@@ -10,14 +16,14 @@ Task Manager App es una aplicación diseñada para gestionar tareas. Esta App pe
 
 **Clona el repositorio**:
 ```bash
-   git clone https://github.com/codewithsebas/task-manager
-   cd task-manager
+git clone https://github.com/codewithsebas/task-manager
+cd task-manager
 ```
 
 **Instala las dependencias**:
 
 ```bash
-   npm install
+npm install
 ```
 
 **Configura las variables de entorno**:
@@ -25,7 +31,7 @@ Task Manager App es una aplicación diseñada para gestionar tareas. Esta App pe
 Crea un archivo .env en el directorio raíz con el siguiente contenido:
 
 ```bash
-    NEXT_PUBLIC_API_URL=http://localhost:5000/api
+NEXT_PUBLIC_API_URL=http://localhost:5000/api
 ```
 
 Reemplaza NEXT_PUBLIC_API_URL con tu cadena de conexión del Backend.
@@ -34,7 +40,7 @@ Reemplaza NEXT_PUBLIC_API_URL con tu cadena de conexión del Backend.
 
 
 ```bash
-    npm run dev
+npm run dev
 ```
 
 ## Recursos utilizados

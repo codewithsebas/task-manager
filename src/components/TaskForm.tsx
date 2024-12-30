@@ -32,7 +32,7 @@ const TaskForm: React.FC = () => {
       setDescription('');
       setStatus('pending');
       setIsModalOpen(false);
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } catch (err: any) {
       setError(err.message || 'Error desconocido al intentar crear la tarea.');
     }
